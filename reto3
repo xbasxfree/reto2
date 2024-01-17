@@ -1,0 +1,9 @@
+x = float(input("Ingrese el primer número: "))
+y = float(input("Ingrese el segundo número: "))
+
+if x > y:
+    print("Error: El primer número debe ser menor o igual al segundo número.")
+else:
+    print("Estos son los numeros entre", x , "y", y)
+    for i in range(int(x), int(y) + 1):
+        print(i)
