@@ -1,0 +1,14 @@
+import time
+
+x = float(input("Inserta el primer numero: "))
+y = float(input("Inserta el segundo numero: "))
+
+print("El resultado de la suma es=", x+y)
+print("El resultado de la resta es=", x-y)
+print("El resultado de la multiplicacion es=", x*y)
+
+if y == 0:
+    print("No se puede dividir entre cero")
+else: print("El resultado de la division es=", x/y)
+
+time.sleep(2)
