@@ -1,0 +1,9 @@
+y = float(input("Inserta el primer numero: "))
+x = float(input("Inserta el segundo numero: "))
+
+if y > x:
+    print( y , "Es mayor que", x )
+elif x > y:
+    print( y , "Es menor que", x )
+elif y == x:
+    print(y , "Es igual que", x)
